@@ -15,7 +15,7 @@ class FizzBuzzTest {
         String say = Fizzbuzz.fizzBuzz(i);
 
         //THEN
-        assertEquals("buzz", say);
+        assertEquals("fizz", say);
     }
 
     @Test
